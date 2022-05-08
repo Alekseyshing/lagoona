@@ -1,0 +1,78 @@
+/*header*/
+.header-container {
+  margin-top: 30px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.lagoona-img {
+  height: 54px;
+}
+
+.header {
+  height: 100%;
+}
+
+.section-contacts-link {
+  margin-right: auto;
+  margin-left: 36px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #666666;
+}
+
+.personal-area-btn-ref {
+  padding-left: 30px;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--main-color);
+  background-image: url(../img/keyboard_tab.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+}
+
+.navigation-area {
+  display: flex;
+  background-color: var(--main-background-color);
+  border-radius: 15px;
+}
+
+.nav {
+  display: flex;
+  margin: 14px 45px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  margin: 13px 45px 13px 0; 
+  color: #666666;
+}
+
+.header-btn-elements {
+  padding-left: 56px;
+  border-left: #E1E1E1 solid 1px;
+}
+
+.nav-btn {
+  padding: 15px 20px;
+  border-radius: 15px;
+  color: var(--main-color);
+  background-color: var(--main-background-color);
+  border-color: var(--main-color);
+  border-style: solid;
+  cursor: pointer;
+}
+
+.btn-header {
+  margin-right: 40px;
+}

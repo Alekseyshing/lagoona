@@ -1,0 +1,13 @@
+/*section-about-us*/
+.section-about-heading {
+  margin-top: 57px;
+}
+
+.section-about-description {
+  margin-top: 11px;
+  margin-bottom: 70px;
+  max-width: 888px;
+  max-height: 180px;
+  font-size: 16px; 
+  line-height: 32px;
+}

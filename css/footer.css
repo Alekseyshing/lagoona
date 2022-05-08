@@ -1,0 +1,107 @@
+.section-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-top: 44px;
+  padding-left: 52px;
+  padding-right: 51px;
+  border-radius: 15px;
+  background-image: url('../img/sun-grey.png');
+  background-repeat: no-repeat;
+  background-position: 75% bottom;
+  background-size: 254.77px 254.75px;
+  background-color: #333333;
+  color: var(--main-background-color);
+}
+
+.text-copyright {
+  padding-bottom: 46px;
+  max-width: 320px;
+  line-height: 30.4px;
+}
+
+.footer-list {
+  padding-right: 260px;
+  line-height: 30.4px;
+}
+
+
+.footer-description {
+  padding-top: 37px;
+  padding-bottom: 49px;
+  line-height: 30.4px;
+}
+
+.footer-terms-of-use {
+  line-height: 24px;
+  color: var(--main-color);
+}
+
+.section-footer-ref {
+ color: var(--main-color);
+}
+
+.section-footer-item-tel {
+  padding-top: 14px;
+}
+
+.section-footer-item-mail {
+  padding-top: 15px;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 85px;
+}
+
+.footer-nav-social-item {
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+
+.footer-nav-tripadvisor {
+  background-image: url('../img/component25.png');
+  transition-property: background-color, box-shadow;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+
+.footer-nav-twitter {
+  background-image: url('../img/twitter.png');
+  transition-property: background-color, box-shadow;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+
+.footer-nav-facebook {
+  background-image: url('../img/facebook.png');
+  transition-property: background-color, box-shadow;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+
+.footer-nav-vkontakte {
+  background-image: url('../img/social.png');
+  transition-property: background-color, box-shadow;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+
+.footer-nav-instagram {
+  background-image: url('../img/instagram.png');
+  transition-property: background-color, box-shadow;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+
+.footer-nav-tripadvisor:hover,
+.footer-nav-twitter:hover,
+.footer-nav-facebook:hover,
+.footer-nav-vkontakte:hover,
+.footer-nav-instagram:hover {
+  background-color: rgb(85, 83, 83);
+  box-shadow: 0 0px 50px 20px var(--main-background-color);
+}

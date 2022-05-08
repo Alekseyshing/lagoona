@@ -1,0 +1,58 @@
+.contacts {
+  margin-top: 70px;
+  margin-bottom: 19px;
+}
+
+.section-contacts {
+  margin-top: 26px;
+  padding: 19px 44px 19px 46px;
+  background-color: var(--main-background-color);
+  border-radius: 15px;
+}
+
+.section-contacts-list {
+  background-image: url('../img/background-section-contacts.jpg');
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: contain;
+  background-position: right;
+  border-radius: 15px;
+}
+
+.section-contacts-list-item {
+  display: flex;
+  justify-content: space-between;
+  width: 375px;
+  padding-top: 25px;
+  height: 100%;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.section-contacts-heading {
+  font-size: 20px;
+}
+
+.section-contacts-item-element {
+  width: 229px;
+  padding-bottom: 23px;
+  font-style: normal;
+}
+
+.text-e-mail {
+  color: #999999;
+}
+
+.section-contacts-ref {
+  color: var(--main-color);
+}
+
+.btn-route {
+ margin: 72px 0 0;
+ background-color: var(--main-background-color);
+ font-weight: 700;
+ color: var(--main-color);
+ border: 1px solid var(--main-color);
+ border-radius: 15px;
+ padding: 29px 29px;
+ cursor: pointer;
+}

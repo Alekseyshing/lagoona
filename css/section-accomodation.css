@@ -1,0 +1,109 @@
+/*section-accommodation*/
+.section-accomodation-heading {
+  margin-top: 47px;
+}
+
+.section-accommodation-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.section-accommodation-item {
+  margin-right: 23px;
+  margin-bottom: 23px;
+  width: 30%;
+  width: 374px;
+  min-height: 440px;
+  border-radius: 15px;
+  background-color: var(--main-background-color);
+}
+
+.section-accommodation-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.section-price {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 36px 46px 16px 45px;
+  color: #999999;
+}
+
+.item-description-name {
+  margin: 0 0 16px 45px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.item-description-location {
+  margin: 0 0 33px 45px;
+  color: #999999;
+}
+
+.accomondation-item-rooms {
+  margin: 0 0 41px 45px;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 15px;
+  padding: 13px 20px;
+  background-color: var(--main-background-color);
+}
+
+.accomondation-item-rooms:active {
+  background-color: #f1da8cd8;
+  box-shadow: 0 0 44px 20px #f1da8cd8;
+  outline: none;
+}
+
+.accomondation-item-rooms:hover {
+  background-color: #f1da8cd8;
+}
+
+.item-description-price {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.item-description-night {
+  font-weight: 500;
+  color: #000000;
+}
+
+.section-accommodation-item-last {
+  position: relative;
+  padding: 373px 59px 27px 54px;
+  background-image: url(../img/41.jpg);
+}
+
+.see-all-element::before {
+  content:'';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.see-all-element {
+  padding-right: 10px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--main-background-color);
+  background-image: url(../img/rectangle4.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 11px 11px;
+}
+
+
+
+

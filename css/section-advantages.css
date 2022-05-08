@@ -1,0 +1,107 @@
+/*section-advantages*/
+.section-advantages-heading {
+  margin-top: 47px;
+  margin-bottom: 30px;
+}
+
+.section-advantages-list {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.section-advantages-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.section-advantages-item {
+  width: 20%;
+  min-height: 275px;
+  min-width: 275px;
+  margin: 0 23px 23px 0;
+  border-radius: 15px;
+  line-height: 32px;
+  background-color: var(--main-background-color);
+}
+
+.section-advantages-item-bathtub {
+  margin: 42px 42px 41px 43px;
+  padding-top: 74px;
+  background-image: url('../img/bathtub.svg');
+  background-repeat: no-repeat;
+}
+
+.section-advantages-item-hanger {
+  margin: 42px 42px 41px 43px;
+  padding-top: 74px;
+  background-image: url('../img/hanger.svg');
+  background-repeat: no-repeat;
+  background-size: 64px 66px;
+}
+
+.section-advantages-item-heating {
+  margin: 42px 42px 41px 43px;
+  padding-top: 74px;
+  background-image: url('../img/heating.svg');
+  background-repeat: no-repeat;
+  background-size: 64px 66px;
+}
+
+.section-advantages-item-hotel-key {
+  margin: 42px 42px 41px 43px;
+  padding-top: 74px;
+  background-image: url('../img/hotel-key.svg');
+  background-repeat: no-repeat;
+  background-size: 64px 66px;
+}
+
+.section-advantages-item-parking {
+  margin: 42px 42px 41px 43px;
+  padding-top: 74px;
+  background-image: url('../img/parking.svg');
+  background-repeat: no-repeat;
+  background-size: 64px 66px;
+}
+
+.section-advantages-item-reception {
+  margin: 42px 42px 41px 43px;
+  padding-top: 74px;
+  background-image: url('../img/reception.svg');
+  background-repeat: no-repeat;
+  background-size: 64px 66px;
+}
+
+.section-advantages-item-security-box {
+  margin: 42px 42px 41px 43px;
+  padding-top: 74px;
+  background-image: url('../img/security-box.svg');
+  background-repeat: no-repeat;
+  background-size: 64px 66px;
+}
+
+.section-advantages-item-swimming-pool {
+  margin: 42px 42px 41px 43px;
+  padding-top: 74px;
+  background-image: url('../img/swimming-pool.svg');
+  background-repeat: no-repeat;
+  background-size: 64px 66px;
+}
+
+.section-advantages-item-test-one {
+  margin: 42px 42px 41px 43px;
+  padding-top: 74px;
+  background-image: url('../img/swimming-pool.svg');
+  background-repeat: no-repeat;
+  background-size: 64px 66px;
+}
+
+.section-advantages-item-test-two {
+  margin: 42px 42px 41px 43px;
+  padding-top: 74px;
+  background-image: url('../img/swimming-pool.svg');
+  background-repeat: no-repeat;
+  background-size: 64px 66px;
+}
+
+.section-advantages-item:nth-child(4n) {
+  margin-right: 0;
+}
